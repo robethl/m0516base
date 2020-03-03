@@ -1,0 +1,479 @@
+Dependencies for Project 'project', Target 'M0516Basecode': (DO NOT MODIFY !)
+F (..\..\lib\Device\Nuvoton\M051Series\Source\ARM\startup_M051Series.s)(0x568A1DB8)(--cpu Cortex-M0 -g --apcs=interwork -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" --list ".\startup_M051Series.lst" --xref -o "..\..\out\startup_M051Series.o" --depend "..\..\out\startup_M051Series.d")
+F (..\..\app\src\main.c)(0x569C7126)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\main.o" --omf_browse "..\..\out\main.crf" --depend "..\..\out\main.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\extern.h)(0x569B947C)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\fmc\app_fmc.h)(0x5698B632)
+I (..\..\app\inc\i2c\app_i2c.h)(0x569C54EA)
+I (..\..\app\inc\led\app_led.h)(0x569C3D58)
+I (..\..\app\inc\time\app_time.h)(0x569847F6)
+F (..\..\app\src\i2c\app_i2c.c)(0x569C6FD0)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_i2c.o" --omf_browse "..\..\out\app_i2c.crf" --depend "..\..\out\app_i2c.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\i2c\app_i2c.h)(0x569C54EA)
+F (..\..\app\src\time\app_time.c)(0x5698A952)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_time.o" --omf_browse "..\..\out\app_time.crf" --depend "..\..\out\app_time.d")
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\time\app_time.h)(0x569847F6)
+F (..\..\app\src\uart\app_uart.c)(0x5698A998)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_uart.o" --omf_browse "..\..\out\app_uart.crf" --depend "..\..\out\app_uart.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\uart\app_uart.h)(0x56988BC8)
+F (..\..\app\src\algorithm\app_algorithm.c)(0x5696EDE8)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_algorithm.o" --omf_browse "..\..\out\app_algorithm.crf" --depend "..\..\out\app_algorithm.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+F (..\..\app\src\led\app_led.c)(0x569B9276)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_led.o" --omf_browse "..\..\out\app_led.crf" --depend "..\..\out\app_led.d")
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\led\app_led.h)(0x569C3D58)
+F (..\..\app\src\fmc\app_fmc.c)(0x5698B8CE)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_fmc.o" --omf_browse "..\..\out\app_fmc.crf" --depend "..\..\out\app_fmc.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\fmc\app_fmc.h)(0x5698B632)
+F (..\..\app\src\fpga\app_fpga.c)(0x569C70D4)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_fpga.o" --omf_browse "..\..\out\app_fpga.crf" --depend "..\..\out\app_fpga.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\fpga\app_fpga.h)(0x568E2F20)
+I (..\..\app\inc\tftp\app_tftp.h)(0x5695CE08)
+F (..\..\app\src\flash\app_flash.c)(0x569C6F64)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_flash.o" --omf_browse "..\..\out\app_flash.crf" --depend "..\..\out\app_flash.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\extern.h)(0x569B947C)
+I (..\..\app\inc\flash\app_flash.h)(0x56985F5C)
+F (..\..\app\src\spi\app_spi.c)(0x56976ADE)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_spi.o" --omf_browse "..\..\out\app_spi.crf" --depend "..\..\out\app_spi.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\spi\app_spi.h)(0x568CD312)
+F (..\..\app\src\tftp\app_tftp.c)(0x569C7004)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\app_tftp.o" --omf_browse "..\..\out\app_tftp.crf" --depend "..\..\out\app_tftp.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\..\app\inc\typedef.h)(0x54519496)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+I (..\..\app\inc\device.h)(0x569C70EC)
+I (..\..\app\inc\extern.h)(0x569B947C)
+I (..\..\app\inc\tftp\app_tftp.h)(0x5695CE08)
+I (..\..\app\inc\i2c\app_i2c.h)(0x569C54EA)
+F (..\..\lib\Device\Nuvoton\M051Series\Source\system_M051Series.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\system_m051series.o" --omf_browse "..\..\out\system_m051series.crf" --depend "..\..\out\system_m051series.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\gpio.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\gpio.o" --omf_browse "..\..\out\gpio.crf" --depend "..\..\out\gpio.d")
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\i2c.c)(0x5689C8A8)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\i2c.o" --omf_browse "..\..\out\i2c.crf" --depend "..\..\out\i2c.d")
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\sys.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\sys.o" --omf_browse "..\..\out\sys.crf" --depend "..\..\out\sys.d")
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\spi.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\spi.o" --omf_browse "..\..\out\spi.crf" --depend "..\..\out\spi.d")
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\uart.c)(0x53B51EB8)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\uart.o" --omf_browse "..\..\out\uart.crf" --depend "..\..\out\uart.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\clk.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\clk.o" --omf_browse "..\..\out\clk.crf" --depend "..\..\out\clk.d")
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
+F (..\..\lib\StdDriver\src\retarget.c)(0x537B2288)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\lib\Device\Nuvoton\M051Series\Include -I..\..\lib\StdDriver\inc -I..\..\app\inc\algorithm -I..\..\app\inc\gpio -I..\..\app\inc\i2c -I..\..\app\inc\led -I..\..\app\inc\uart -I..\..\app\inc\fmc -I..\..\app\inc\flash -I..\..\app\inc\fpga -I..\..\app\inc\spi -I..\..\app\inc\tftp -I..\..\app\inc\time -I..\..\app\inc -I "D:\Program Files\Keil\ARM\RV31\INC" -I "D:\Program Files\Keil\ARM\CMSIS\Include" -I "D:\Program Files\Keil\ARM\Inc\Nuvoton\M051Series" -o "..\..\out\retarget.o" --omf_browse "..\..\out\retarget.crf" --depend "..\..\out\retarget.d")
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\M051Series.h)(0x537B2288)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (D:\Program Files\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (D:\Program Files\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (..\..\lib\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\sys.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\clk.h)(0x548F9E0C)
+I (..\..\lib\StdDriver\inc\adc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\ebi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\fmc.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\gpio.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\i2c.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\pwm.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\spi.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\timer.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\wwdt.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\uart.h)(0x53B61208)
+I (..\..\lib\StdDriver\inc\hdiv.h)(0x537B2288)
+I (..\..\lib\StdDriver\inc\acmp.h)(0x537B2288)
